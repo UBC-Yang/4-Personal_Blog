@@ -9,33 +9,39 @@
         <title>Personal Blog</title>
     </head>
 
-    <body>
-        <nav class="mode" style="float: right;"><span style="color: orange;">&#x2600;</span></nav>
-        <div class="container">
-            <div class="my-first-blog column">
-                <h1 id="my-first-blog">My First Blog</h1>
-            </div>
-            <div class="entry column">
-                <h2 id="mind">What's on your mind?</h2>
-                <form>
-                    <ul>
-                        <li>
-                            <label for="username">Username</label>
-                            <textarea id="username"></textarea>
-                        </li>
-                        <li>
-                            <label for="title">Title</label>
-                            <textarea id="title"></textarea>
-                        </li>
-                        <li>
-                            <label for="content">Content</label>
-                            <textarea id="content"></textarea>
-                        </li>
-                    </ul>
-                    <button>Submit</button>
-                </form>
+    <body class="theme light">
+        <div>
+            <button class="theme-switcher" style="float: right;">
+                <span style="color: orange;">&#x2600;</span>
+            </button>
+
+            <div class="container">
+                <div class="my-first-blog column">
+                    <h1 class="circle">My First Blog</h1>
+                </div>
+                <div class="entry column">
+                    <h2 id="mind">What's on your mind?</h2>
+                    <form>
+                        <ul>
+                            <li>
+                                <label for="username">Username</label>
+                                <textarea id="username"></textarea>
+                            </li>
+                            <li>
+                                <label for="title">Title</label>
+                                <textarea id="title"></textarea>
+                            </li>
+                            <li>
+                                <label for="content">Content</label>
+                                <textarea id="content"></textarea>
+                            </li>
+                        </ul>
+                        <button class="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
-        <script src="./assets/js/script.js"></script>
+        
+        <script src="./assets/js/form.js"></script>
     </body>
 </html>
