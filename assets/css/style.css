@@ -1,4 +1,6 @@
 /*Dark Mode*/
-.dark-mode {
+.dark {
     background-color:#243447;
+    color: white;
+    height: 100vh;
 }

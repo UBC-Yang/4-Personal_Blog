@@ -5,7 +5,7 @@ body {
 .theme-switcher {
     display: flex;
     flex-wrap: wrap;
-
+    cursor: pointer;
     position: relative;
     bottom: 50px;
     right: 25px;
