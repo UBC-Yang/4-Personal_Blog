@@ -6,22 +6,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="./assets/css/blog.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
         <title>Personal Blog</title>
     </head>
 
     <body>
-        <div class="container">
+        <!--light/dark mode toggle container-->
+        <div class="theme light">
             <button class="theme-switcher" style="float: right;">
                 <span style="color: orange;">&#x2600;</span>
             </button>
 
+            <!--Back button container-->
             <button class="back" style="float: right;">
                 <span>Back</span>
             </button>
 
+            <!--Post page header container-->
+            <h1 id="header">My First Blog</h1>
 
+            <!--Post page main content container-->
+            <div class="main-content"></div>
+
+            <!--Footer container-->
+            
         </div>
 
-    <script src="./assets/js/blog.js"></script>
+
+        <script src="./assets/js/blog.js"></script>
+        <script src="./assets/js/logic.js"></script>
     </body>
 </html>

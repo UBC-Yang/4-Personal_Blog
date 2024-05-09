@@ -9,6 +9,9 @@ body {
     font-size: 20px;
     margin: 8px;
     cursor: pointer;
+
+    position: relative;
+    right: 25px;
 }
 
 .back {
@@ -22,4 +25,8 @@ body {
     font-size: 1.2em;
     padding: 10px 10px;
     margin-right: 50px;
+}
+
+#header {
+    padding: 10px;
 }

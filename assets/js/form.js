@@ -2,8 +2,11 @@ const themeSwitcher = document.querySelector('.theme-switcher');
 const theme = document.querySelector('.theme');
 const form = document.querySelector('.form');
 
+//WHEN I click the light mode/dark mode toggle,
+//THEN the page content's styles update to reflect the selection.
+
 let mode = 'light';
-//Click to switch theme
+
 themeSwitcher.addEventListener('click', function() {
     if (mode === 'light') {
         mode = 'dark';
@@ -15,7 +18,9 @@ themeSwitcher.addEventListener('click', function() {
     }
 });
 
-//Validate form
+//WHEN I enter try to submit a form without a username, title, or content,
+//THEN I am presented with a message that prompts me to complete the form.
+
 const formSubmission = function(event) {
     event.preventDefault();
 
@@ -29,7 +34,7 @@ const formSubmission = function(event) {
         window.location.href = 'blog.html';
     }
 
-    const errorMessage = 'Please complete all fields';
+    const errorMessage = 'Please fill in this field';
 }
 
 form.addEventListener('submit', formSubmission);
