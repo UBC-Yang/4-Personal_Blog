@@ -1,7 +1,9 @@
+/*Styling applied to all*/
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Styling applied to the sun symbol*/
 .theme-switcher {
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +16,7 @@ body {
     right: 25px;
 }
 
+/*Styling applied to the back button*/
 .back {
     display: flex;
     flex-wrap: wrap;
@@ -27,10 +30,12 @@ body {
     margin-right: 50px;
 }
 
+/*Styling applied to the header section of the blog page*/
 #header {
     padding: 10px;
 }
 
+/*Styling applied to the blogs of the main content*/
 .blog {
     font-size: 16px;
     margin: 10px;
@@ -38,18 +43,21 @@ body {
     padding-left: 2%;
 }
 
+/*Styling applied to the paragraph element of the blog*/
 .blog p {
     margin: 10px;
     padding-top: 10px;
     border-top: 2px solid black;
 }
 
+/*Styling applied to the paragraph element of the footer*/
 footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/*Styling applied to the unordered list element of the footer*/
 footer ul {
     list-style: none;
 }

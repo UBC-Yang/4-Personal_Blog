@@ -11,9 +11,9 @@ const posts = JSON.parse(storedPost);
         const postElement = document.createElement('div');
         postElement.setAttribute('class', 'blog');
         postElement.innerHTML = `
-            <h2>Title: ${posts[i].title}</h2>
+            <h3>Title: ${posts[i].title}</h3>
             <p>${posts[i].content}</p>
-            <h2>User: ${posts[i].username}</h2>
+            <h3>User: ${posts[i].username}</h3>
             `;
         mainContentContainer.appendChild(postElement)
         }

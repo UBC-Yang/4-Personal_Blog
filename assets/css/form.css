@@ -1,7 +1,10 @@
+/*Styling applied to all*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
+/*Styling applied to the sun symbol*/
 .theme-switcher {
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +15,7 @@ body {
     font-size: 20px;
 }
 
-
+/*Styling applied to the header*/
 h1 {
     color:white;
     font-size: 40px;
@@ -23,6 +26,7 @@ h1 {
     text-align: center;
 }
 
+/*Styling applied to the class container*/
 .container {
     display: flex;
     justify-content: center;
@@ -30,11 +34,13 @@ h1 {
     margin: 5%;
 }
 
+/*Styling applied to the content of the header*/
 .my-first-blog {
     position: relative;
     top: 100px;
 }
 
+/*Styling applied to the background of the header*/
 .circle {
     background-color: orange;
     height: 450px;
@@ -46,24 +52,29 @@ h1 {
     align-items: center;
 }
 
+/*Styling applied to the column*/
 .column {
     flex: 1;
 }
 
+/*Styling applied to the entry form*/
 .entry {
     position: relative;
     top: 100px;
 }
 
+/*Styling applied to the title of the form*/
 #mind {
     display: flex;
     justify-content: center;
 }
 
+/*Styling applied to the list of the form*/
 ul li {
     list-style: none;
 }
 
+/*Styling applied to the username and title section of the form*/
 #username, #title {
     display: block;
     min-height: 30px;
@@ -71,6 +82,7 @@ ul li {
     margin: 2%;
 }
 
+/*Styling applied to the content section of the form*/
 #content {
     display: block;
     min-height: 100px;
@@ -78,12 +90,14 @@ ul li {
     margin: 2%;
 }
 
+/*Styling applied to the text entry box of content*/
 textarea {
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px;
     font-size: medium;
 }
 
+/*Styling applied to the submit button of the form*/
 button.submit {
     background-color: black;
     color: white;
