@@ -78,6 +78,12 @@ ul li {
     margin: 2%;
 }
 
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    font-size: medium;
+}
+
 button.submit {
     background-color: black;
     color: white;

@@ -31,12 +31,17 @@ body {
     padding: 10px;
 }
 
-#mainContent {
-    display: flex;
-    flex-wrap: wrap;
+.blog {
+    font-size: 16px;
+    margin: 10px;
     border: 2px solid black;
+    padding-left: 2%;
+}
 
-    padding-left: 10px;
+.blog p {
+    margin: 10px;
+    padding-top: 10px;
+    border-top: 2px solid black;
 }
 
 footer p {
