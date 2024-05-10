@@ -24,6 +24,7 @@ themeSwitcher.addEventListener('click', function() {
 const formSubmission = function(event) {
     event.preventDefault();
 
+    let blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || []
     const username = document.getElementById('username').value;
     const title = document.getElementById('title').value;
     const content = document.getElementById('content').value;
@@ -31,6 +32,14 @@ const formSubmission = function(event) {
     if (username === '' || title === '' || content === '') {
         errorMessage();
     } else {
+    //WHEN I submit the form,
+    //THEN blog post data is stored to localStorage.
+        blogPosts.push(
+            {
+                username,title,content
+            }
+        )
+        localStorage.setItem('blogPosts',JSON.stringify(blogPosts));
         window.location.href = 'blog.html';
     }
 

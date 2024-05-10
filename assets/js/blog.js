@@ -29,20 +29,3 @@ const goBack = function(event) {
 
 back.addEventListener('click', goBack);
 
-//WHEN I view the main content,
-//THEN I am presented with a list of blog posts that are pulled from localStorage.
-
-const displayBlogPosts = function() {
-    const blogPosts = JSON.parse(localStorage.getItem('postData'))
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    const postData = JSON.parse(localStorage.getItem('postData'));
-
-    const displayBlogPosts = document.getElementsByClassName('postData');
-    displayBlogPosts.innerHTML = `
-    ${postData.username}
-    ${postData.title}
-    ${postData.content}
-    `;
-})

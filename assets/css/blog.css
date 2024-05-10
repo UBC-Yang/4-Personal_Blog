@@ -31,8 +31,10 @@ body {
     padding: 10px;
 }
 
-main {
-    display: block;
+#mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
 }
 
 footer p {
