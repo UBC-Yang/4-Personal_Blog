@@ -42,7 +42,6 @@ const formSubmission = function(event) {
         localStorage.setItem('blogPosts',JSON.stringify(blogPosts));
         window.location.href = 'blog.html';
     }
-
     const errorMessage = 'Please fill in this field';
 }
 
